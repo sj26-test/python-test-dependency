@@ -1,0 +1,10 @@
+[project]
+name = "python-test-dependency"
+version = "0.1.0"
+description = "Simple python dependency"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+publish-url = "https://packages.buildkite.com/sj26-test/python-private/pypi/legacy"
